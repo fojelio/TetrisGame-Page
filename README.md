@@ -1,16 +1,11 @@
 # Tetris Game
 
-![Tetris Screenshot](tetris_screenshot.png)
-
 Este repositorio contiene el código fuente y los recursos necesarios para un emocionante juego de Tetris. Sumérgete en la nostalgia y la diversión de este clásico juego de rompecabezas mientras intentas encajar las piezas y borrar líneas para obtener la puntuación más alta.
 
 ## Características principales
 
 - Juega al clásico juego de Tetris con los controles familiares que conoces y amas.
 - Interfaz de usuario intuitiva y atractiva que muestra la próxima pieza y la puntuación actual.
-- Dificultad ajustable para desafiar tanto a principiantes como a jugadores experimentados.
-- Registra tus mejores puntuaciones y compite contra ti mismo para superar tus logros.
-- Personaliza los colores y la apariencia del juego para hacerlo único.
 
 ## Cómo ejecutar el juego
 
@@ -24,8 +19,8 @@ Este repositorio contiene el código fuente y los recursos necesarios para un em
 
 ## Licencia
 
-Este proyecto se distribuye bajo la licencia [MIT](LICENSE), lo que significa que puedes utilizar, modificar y distribuir el código fuente libremente. ¡Disfruta del juego!
+Este proyecto es OpenSource, lo que significa que puedes utilizar, modificar y distribuir el código fuente libremente. ¡Disfruta del juego!
 
 ---
 
-© 2023 Tu Nombre
+© 2023 Fojel
