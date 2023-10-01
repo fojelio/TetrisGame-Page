@@ -5,7 +5,7 @@ Este repositorio contiene el código fuente y los recursos necesarios para un em
 ## Características principales
 
 - Juega al clásico juego de Tetris con los controles familiares que conoces y amas.
-- Interfaz de usuario intuitiva y atractiva que muestra la próxima pieza y la puntuación actual.
+- Interfaz de usuario intuitiva y atractiva
 
 ## Cómo ejecutar el juego
 
