@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^tetris/?$ index.html [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+ErrorDocument 404 /TetrisGame/errors/404.html
