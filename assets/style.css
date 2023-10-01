@@ -1,0 +1,61 @@
+body {
+   background-image: url('img/background1.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+ }
+
+ .logo {
+   display: block; 
+   margin: 0 auto 20px;
+   border: hidden;  
+ }
+ 
+ #game_board {
+   width: 240px;
+   height: 480px;
+   border: 3px inset #4570df;   margin: 0 auto;
+   position: relative;
+   background: repeating-linear-gradient(rgba(22, 28, 67, 0.8), rgba(22, 28, 67, 0.8) 20px, rgba(23, 27, 63, 0.8) 20px, rgba(23, 27, 63, 0.8) 40px), repeating-linear-gradient(90deg, rgba(22, 28, 67, 0.8), rgba(22, 28, 67, 0.8) 20px, rgba(
+           23,
+           27,
+           63,
+           0.8
+         ) 20px, rgba(23, 27, 63, 0.8) 40px);
+         box-shadow: 0px 0px 90px 15px rgba(0,0,0,0.57);
+         -webkit-box-shadow: 0px 0px 90px 15px rgba(0,0,0,0.57);
+         -moz-box-shadow: 0px 0px 90px 15px rgba(0,0,0,0.57);
+ }
+ 
+ .block {
+   width: 24px;
+   height: 24px;
+   position: absolute;
+   border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px; 
+ }
+
+ .block::before {
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+ }
+ 
+ .block:hover {
+   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.5) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.5) 75%, transparent 75%, transparent);
+ }
+ 
+ .ghost {
+   width: 24px;
+   height: 24px;
+   border: 1px solid black;
+   position: absolute;
+   box-shadow: inset 3px 3px 0 rgba(255, 255, 255, 0.3);
+ }
